@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Js</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <script type="text/javascript" src="one.js"></script> -->
+	<!-- <script type="text/javascript" src="two.js"></script> -->
+	<!-- <script type="text/javascript" src="three.js"></script> -->
+	<!-- <script type="text/javascript" src="four.js"></script> -->
+	<!-- <script type="text/javascript" src="five.js"></script> -->
+	<!-- <script type="text/javascript" src="six.js"></script> -->
+	<!-- <script type="text/javascript" src="seven.js"></script> -->
+	<!-- <script type="text/javascript" src="eight.js"></script> -->
+	
+</head>
+<body>
+
+	<!-- For expt 2 -->
+	<!-- <h1>Validation Form</h1>
+    <form name="registration" onSubmit="return formValidation();">
+      <ul>
+        <li><label for="userid">User id:</label></li>
+        <li><input type="text" name="userid" size="12" /></li>
+        <li><label for="passid">Password:</label></li>
+        <li><input type="password" name="passid" size="12" /></li>
+        <li><label for="username">Name:</label></li>
+        <li><input type="text" name="username" size="50" /></li>
+        <li><label for="address">Address:</label></li>
+        <li><input type="text" name="address" size="50" /></li>
+        <li><label for="country">Country:</label></li>
+        <li>
+          <select name="country">
+            <option selected="" value="Default">
+              select country
+            </option>
+            <option value="F">Armenia</option>
+            <option value="A">Argentina</option>
+            <option value="Z">India</option>
+            <option value="S">Andorra</option>
+            <option value="D">Nauru</option>
+            <option value="T">Australia</option>
+            <option value="ALA">Ecuador</option>
+            <option value="DEZ">Senegal</option>
+            <option value="ABS">Eritrea</option>
+            <option value="AQD">USA</option>
+            <option value="AUF">Guyana</option>
+            <option value="ANL">Canada</option>
+            <option value="DIZ">India</option>
+            <option value="AMS">Russia</option>
+            <option value="AYD">Venezuela</option>
+          </select>
+        </li>
+        <li><label for="zip">ZIP Code:</label></li>
+        <li><input type="text" name="zip" /></li>
+        <li><label for="email">Email:</label></li>
+        <li><input type="text" name="email" size="50" /></li>
+        <li><label id="gender">Sex:</label></li>
+        <li>
+          <input type="radio" name="msex" value="Male" /><span>Male</span>
+          <input type="radio" name="fsex" value="Female" /><span>Female</span>
+        </li>
+        <li><label>Language:</label></li>
+        <li>
+          <input type="checkbox" name="en" value="en" checked /><span>English</span>
+          <input type="checkbox" name="nonen" value="noen" /><span>Hindi</span>
+        </li>
+        <li><label for="desc">About:</label></li>
+        <li><textarea name="desc" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+      </ul>
+ -->
+
+
+	<!-- For expt 6 -->
+	<!-- <h1 style="text-align: center">Register Here:</h1>
+    <form name="RegForm" action="#" onsubmit="return user()">
+      <p>Name: <input type="text" size="65" name="Name" /></p>
+      <br />
+      <p>Address: <input type="text" size="65" name="Address" /></p>
+      <br />
+      <p>E-mail: <input type="email" size="65" name="EMail" /></p>
+      <br />
+      <p>Password: <input type="password" size="65" name="Password" /></p>
+      <br />
+      <p>Telephone: <input type="text" size="65" name="Telephone" /></p>
+      <br />
+      <p>
+        <input type="submit" value="send" name="Submit" />
+      </p>
+    </form> -->
+
+
+<!-- For expt 7 -->
+    <!-- <form name="sci-calc">
+ <table class="calculator" cellspacing="0" cellpadding="1">
+   <tr>
+     <td colspan="5"><input id="display" name="display" value="0" size="28" maxlength="25"></td>
+   </tr>
+   <tr>
+     <td><input type="button" class="btnTop" name="btnTop" value="C" onclick="this.form.display.value=  0 "></td>
+     <td><input type="button" class="btnTop" name="btnTop" value="<--" onclick="deleteChar(this.form.display)"></td>
+     <td><input type="button" class="btnTop" name="btnTop" value="=" onclick="if(checkNum(this.form.display.value)) { compute(this.form) }"></td>
+     <td><input type="button" class="btnOpps" name="btnOpps" value="&#960;" onclick="addChar(this.form.display,'3.14159265359')"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="%" onclick=" percent(this.form.display)"></td>
+   </tr>
+   <tr>
+     <td><input type="button" class="btnNum" name="btnNum" value="7" onclick="addChar(this.form.display, '7')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="8" onclick="addChar(this.form.display, '8')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="9" onclick="addChar(this.form.display, '9')"></td>
+     <td><input type="button" class="btnOpps" name="btnOpps" value="x&#94;" onclick="if(checkNum(this.form.display.value)) { exp(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="/" onclick="addChar(this.form.display, '/')"></td>
+   <tr>
+     <td><input type="button" class="btnNum" name="btnNum" value="4" onclick="addChar(this.form.display, '4')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="5" onclick="addChar(this.form.display, '5')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="6" onclick="addChar(this.form.display, '6')"></td>
+     <td><input type="button" class="btnOpps" name="btnOpps" value="ln" onclick="if(checkNum(this.form.display.value)) { ln(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="*" onclick="addChar(this.form.display, '*')"></td>
+   </tr>
+   <tr>
+     <td><input type="button" class="btnNum" name="btnNum" value="1" onclick="addChar(this.form.display, '1')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="2" onclick="addChar(this.form.display, '2')"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="3" onclick="addChar(this.form.display, '3')"></td>
+     <td><input type="button" class="btnOpps" name="btnOpps" value="&radic;" onclick="if(checkNum(this.form.display.value)) { sqrt(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="-" onclick="addChar(this.form.display, '-')"></td>
+   </tr>
+   <tr>
+     <td><input type="button" class="btnMath" name="btnMath" value="&#177" onclick="changeSign(this.form.display)"></td>
+     <td><input type="button" class="btnNum" name="btnNum" value="0" onclick="addChar(this.form.display, '0')"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="&#46;" onclick="addChar(this.form.display, '&#46;')"></td>
+     <td><input type="button" class="btnOpps" name="btnOpps" value="x&#50;" onclick="if(checkNum(this.form.display.value)) { square(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="+" onclick="addChar(this.form.display, '+')"></td>
+   </tr>
+   <tr>
+     <td><input type="button" class="btnMath" name="btnMath" value="(" onclick="addChar(this.form.display, '(')"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value=")" onclick="addChar(this.form.display,')')"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="cos" onclick="if(checkNum(this.form.display.value)) { cos(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="sin" onclick="if(checkNum(this.form.display.value)) { sin(this.form) }"></td>
+     <td><input type="button" class="btnMath" name="btnMath" value="tan" onclick="if(checkNum(this.form.display.value)) { tan(this.form) }"></td>
+  </tr>
+ </tabel>
+</form>
+     --> 
+
+<!-- For expt 8 -->
+     <!-- <h2>Popup Box</h2> -->
+ 
+</body>
+</html>

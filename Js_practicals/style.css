@@ -1,0 +1,116 @@
+/*For expt 2*/
+/*h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+form li {
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: 33%;
+}
+
+form ul li label {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: left;
+  margin-right: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+form ul li input,
+select,
+span {
+  float: none;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  float: left;
+  width: 350px;
+  height: 150px;
+}
+
+[type="submit"] {
+  clear: none;
+  margin: 20px 500px 0 250px;
+  font-size: 18px;
+}
+
+p {
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+*/
+
+
+
+
+/*For fade color part expt 4*/
+/*body {
+	transition: background-color 2s ;
+	transition-delay: 1s;
+}*/
+
+/*For expt 7*/
+/** {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+
+.calculator {
+  width: 350px;
+  height: 320px;
+  background-color: #c0c0c0;
+  box-shadow: 0px 0px 0px 10px #666;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#display {
+  width: 320px;
+  height: 40px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #7fff00;
+}
+.btnTop{
+  color: white;
+  background-color: #6f6f6f;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnNum {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnMath {
+  color: white;
+  background-color: #ff4561;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+.btnOpps {
+  color: white;
+  background-color: #ff9933;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}*/
